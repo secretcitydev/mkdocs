@@ -1,0 +1,53 @@
+## Site Options
+
+site_name: homelab docs
+
+site_url: https://docs.secretcity.tech
+
+## Site Navigation
+
+nav:
+  - home: index.md
+  - homelab: homelab.md
+  - network: network.md
+  - automation: automation.md
+  - setup: setup.md
+
+## Theme Options
+
+theme:
+  name: material
+  palette: 
+    scheme: default
+    primary: black
+    accent: red
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.sections
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+  
+## Data Privacy
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+## Plugins
+
+plugins:
+  - search

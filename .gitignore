@@ -1,0 +1,45 @@
+# Python virtual environment
+venv/
+mkdocs_env/
+*.py[cod]
+__pycache__/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled or cached assets
+*.log
+*.out
+*.pid
+*.pyc
+*.pyo
+
+# MkDocs output
+site/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore editor-specific configuration files
+.idea/
+.vscode/
+*.swp
+
+# pipenv and poetry dependencies
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# PyCharm project files
+*.iml
+.idea/
+
+# Ignore any sensitive or personal files
+.env
+*.secret
+
+
+site/
