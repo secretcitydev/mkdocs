@@ -39,4 +39,5 @@ poetry.lock
 .env
 *.secret
 
-
+site/
+dist/
