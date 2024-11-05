@@ -17,8 +17,6 @@ Thumbs.db
 *.pyo
 
 # MkDocs output
-site/
-dist/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
