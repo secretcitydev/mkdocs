@@ -1,22 +1,27 @@
+extra_css:
+  - 'css/custom.css'
+
 ## Site Options
 
-site_name: homelab docs
+site_name: SECRETCITY.TECH -> DOCS
 
 site_url: https://docs.secretcity.tech
 
 ## Site Navigation
 
 nav:
-  - home: index.md
-  - homelab: homelab.md
-  - network: network.md
-  - automation: automation.md
-  - setup: setup.md
+  - HOME: index.md
+  - HOMELAB: homelab.md
+  - NETWORK: network.md
+  - AUTOMATION: automation.md
+  - SETUP: setup.md
 
 ## Theme Options
 
 theme:
   name: material
+  font:
+    text: Inter
   palette: 
     scheme: default
     primary: black

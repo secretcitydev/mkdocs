@@ -1,0 +1,4 @@
+/* Make navigation headings bold */
+.md-nav__link {
+    font-weight: bold;
+}
